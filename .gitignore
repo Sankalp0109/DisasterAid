@@ -1,0 +1,154 @@
+# ============================
+#  Node / Backend
+# ============================
+
+# Dependency directories
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+logs/*
+debug.log
+
+# Cache & Temp
+.cache/
+.tmp/
+.DS_Store
+dist/
+coverage/
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+pids
+*.pid
+*.seed
+lib-cov
+*.cover
+.nyc_output
+
+# Compiled binary addons (e.g., for native Node modules)
+build/Release
+
+# Editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ============================
+#  React / Frontend (Vite, CRA)
+# ============================
+
+# Dependency directories
+frontend/node_modules/
+frontend/package-lock.json
+
+# Build output
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# Cache files
+frontend/.eslintcache
+frontend/.parcel-cache
+frontend/.turbo
+frontend/.next
+frontend/.vercel
+frontend/.swc
+frontend/.cache
+
+# Tailwind / PostCSS artifacts
+frontend/.postcssrc
+frontend/.stylelintcache
+
+# Environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ============================
+#  Mongo / Data
+# ============================
+
+# Local database dumps or data exports
+dump/
+data/
+*.bson
+*.json
+
+# ============================
+#  OS and Editor Files
+# ============================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ============================
+#  Misc
+# ============================
+
+# Optional npm cache directory
+.npm
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# TypeScript build files
+*.tsbuildinfo
+
+# Temporary lock or backup files
+*.bak
+*.swp
+*.tmp
+
+# ============================
+#  Docker / Deploy
+# ============================
+
+# Docker artifacts
+Dockerfile.dev
+docker-compose.override.yml
+docker-compose.local.yml
+.docker/
+docker/
+.dockerignore
+
+# ============================
+#  Others (custom)
+# ============================
+
+# Uploaded files (user uploads)
+uploads/
+public/uploads/
+client/public/uploads/
+server/uploads/
