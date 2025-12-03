@@ -13,10 +13,10 @@ const insertAdmin = async () => {
     console.log('✅ Connected to MongoDB (disaster_aid database)');
 
     // Check if admin already exists
-    const existingAdmin = await User.findOne({ email: 'test@admin.com' });
+    const existingAdmin = await User.findOne({ email: 'sid@admin.com' });
     
     if (existingAdmin) {
-      console.log('⚠️  Admin user with email test@admin.com already exists!');
+      console.log('⚠️  Admin user with email sankalp7@admin.com already exists!');
       console.log('📊 Existing Admin:', {
         id: existingAdmin._id,
         name: existingAdmin.name,
@@ -33,13 +33,13 @@ const insertAdmin = async () => {
 
     // Hash password manually
     const salt = await bcrypt.genSalt(10);
-    const hashedPassword = await bcrypt.hash('password', salt);
+    const hashedPassword = await bcrypt.hash('test', salt);
 
     // Create admin object
     const adminUser = new User({
-      name: 'siddardha',
-      email: 'test@admin.com',
-      password: hashedPassword,  // Will be hashed again by pre-save hook, but that's okay
+      name: 'siddharth',
+      email: 'sid@admin.com',
+      password: 'pass',  // Will be hashed again by pre-save hook, but that's okay
       role: 'admin',
       countryCode: '+91',
       phone: '',
