@@ -419,7 +419,7 @@ const AdminDashboard = () => {
         {activeTab === "verification" && (
           <div className="space-y-8">
             {/* Pending Verifications */}
-            <div className="bg-white rounded-lg shadow p-6">
+            {/* <div className="bg-white rounded-lg shadow p-6">
               <h2 className="text-xl font-semibold mb-4">Pending Verifications</h2>
               {loading ? (
                 <p className="text-gray-500">Loading...</p>
@@ -464,7 +464,7 @@ const AdminDashboard = () => {
                   </table>
                 </div>
               )}
-            </div>
+            </div> */}
 
             {/* Verified Users */}
             <div className="bg-white rounded-lg shadow p-6">

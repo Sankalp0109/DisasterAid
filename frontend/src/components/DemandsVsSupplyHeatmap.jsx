@@ -98,9 +98,9 @@ export default function DemandsVsSupplyHeatmap({ requests = [], ngos = [] }) {
   if (!heatmapData.grid.length) {
     return (
       <div className="bg-white rounded-lg shadow p-6">
-        <h3 className="text-lg font-semibold text-gray-800 mb-4">📊 Demands vs Supply Heatmap</h3>
+        <h3 className="text-lg font-semibold text-gray-800 mb-4">📊 Demands vs Supply</h3>
         <div className="text-center py-8 text-gray-500">
-          No location data available for heatmap
+          No location data available 
         </div>
       </div>
     );
@@ -113,7 +113,7 @@ export default function DemandsVsSupplyHeatmap({ requests = [], ngos = [] }) {
       <div className="mb-6">
         <h3 className="text-lg font-semibold text-gray-800 mb-2 flex items-center gap-2">
           <TrendingUp className="w-5 h-5" />
-          📊 Demands vs Supply Heatmap
+          📊 Demands vs Supply
         </h3>
         <p className="text-sm text-gray-600">Geographic areas colored by demand/supply ratio. Red = shortage, Green = surplus</p>
       </div>
