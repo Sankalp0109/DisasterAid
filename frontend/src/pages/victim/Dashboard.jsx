@@ -481,7 +481,7 @@ export default function VictimDashboard() {
                 </div>
 
                 <div className="mt-4 flex gap-2">
-                  {/* <button
+                  <button
                     onClick={(e) => {
                       e.stopPropagation();
                       navigate(`/chat/${request._id}`);
@@ -490,7 +490,7 @@ export default function VictimDashboard() {
                   >
                     <MessageSquare className="w-4 h-4" />
                     <span>View Details & Chat</span>
-                  </button> */}
+                  </button>
 
                   {request.status === 'fulfilled' && (
                     <button

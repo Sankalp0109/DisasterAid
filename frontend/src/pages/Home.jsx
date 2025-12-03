@@ -143,7 +143,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Quick Stats
+        {/* Quick Stats */}
         {(user?.role === 'authority' || user?.role === 'operator') && (
           <div className="mt-12 bg-white rounded-xl shadow-lg p-6">
             <h3 className="text-xl font-bold text-gray-800 mb-4">
@@ -164,7 +164,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        )} */}
+        )}
       </div>
     </div>
   );
